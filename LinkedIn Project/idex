@@ -1,0 +1,272 @@
+<html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="StylePro.css">
+        <!-- font awsome-->
+       
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Linkedin</title>
+    </head>
+    <body>
+        <!--Navbar-->
+    
+       <nav>
+        <div class="wrapper">
+            <div class="left">
+            <div class="logo">
+            <i class="fa-brands fa-linkedin"></i>
+            </div>
+        <div class="input">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="search" placeholder="search for job,skills & companies">
+        </div>
+        </div>
+        <div class="right">
+        <div class="home">
+            <i class="fa-solid fa-house-user"></i>
+            <h6>Home</h6>
+        </div>
+        <div class="network">
+            <i class="fa-sharp fa-solid fa-users-line"></i>
+            <h6>My Network</h6>
+        </div>
+        <div class="Jobs">
+            <i class="fa-solid fa-suitcase"></i>
+            <h6>Jobs</h6>
+        </div>
+        <div class="Message">
+            <i class="fa-solid fa-envelope"></i>
+            <h6>Message</h6>
+        </div>
+        <div class="Notification">
+            <i class="fa-solid fa-bell"></i>
+            <h6>Notification</h6>
+        </div>
+        <div class="me">
+            <i class="fa-sharp fa-solid fa-user"></i>
+            <div class="down">
+               <h6>Me</h6>
+                <i class="fa-solid fa-angle-down"></i></a>
+            </div>
+        </div>
+       <div class="Work">
+        <i class="fa-solid fa-braille"></i>
+        <div class="down">
+            <h6>Work</h6>
+             <i class="fa-solid fa-angle-down"></i></a>
+         </div>
+
+       </div>
+       <a href="#">Try premium for free</a>
+       
+        
+    </div>
+
+    </div>
+       </nav>
+       <!--========================NAVBAR ENDED HERE====================-->
+
+       <div class="container">
+       <aside>
+        <div class="sidebar">
+            <div class="top"></div>
+            <img src="dp4.png" alt="DP img">
+
+
+       
+         <div class="profile">
+              <a href="#">Akash Y Tomar</a>
+              <small>Full Stack Developer</small>
+              <hr id="profile">
+        </div>
+        
+        <div class="view">
+            <div class="views">
+                <h6>who viewed your profile</h6>
+                <a href="#">44</a>
+            </div>
+            
+            <div class="views">
+                <h6>View of your post</h6>
+                <a href="#">84</a>
+            </div>
+            <hr id="view">
+        </div>
+        
+        <div class="premium">
+            <h6>Access exclusive tools & insights</h6>
+            <a href="#"><i class="fa-solid fa-box"></i><h5>Try premium for free</h5></a>
+            <hr id="premium">
+        </div>
+        <div class="items">
+            <i class="fa-solid fa-bookmark"></i>
+            <h6>My items</h6>
+        </div>
+    </div>
+    <div class="recent_jobs">
+        <div class="recent">
+            <h6>Recent</h6>
+            <div class="one">
+                <i class="fa-solid fa-users"></i>
+                <h6>Web designer,HTML,CSS.....</h6>
+            </div>
+            <div class="one">
+                <i class="fa-solid fa-users"></i>
+                <h6>The flexbox jobs,CSS.....</h6>
+            </div><div class="one">
+                <i class="fa-solid fa-users"></i>
+                <h6>Backend Developer,java.....</h6>
+            </div><div class="one">
+                <i class="fa-solid fa-users"></i>
+                <h6>frontEnd developer/ ,React.....</h6>
+            </div>
+        </div>
+                 <div class="groups">
+                <h5>Groups</h5>
+                <div class="two">
+                    <i class="fa-solid fa-users"></i>
+                    <h6>Web designer,HTML,CSS.....</h6>
+                </div>
+                <div class="two">
+                    <i class="fa-solid fa-users"></i>
+                    <h6>The flexbox jobs,CSS.....</h6>
+                </div>
+                <div class="two">
+                    <i class="fa-solid fa-users"></i>
+                    <h6>Backend Developer,java.....</h6>
+                    </div>
+                <div class="show">
+                    <h6>Show more</h6>
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+            </div>
+            <div class="events">
+                <h6>Event</h6>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="discover">
+                <a href="#">Discover more</a>
+            </div>
+             
+          
+</div>
+       </aside>
+     <!--=========================SIDEBAR END HERE=====================------>
+       <main>
+        <div class="main_section">
+            <div id="close"><i class="fa-solid fa-xmark"></i></div>
+            <div class="event">
+                <h3>Upcoming event from LinkedIn</h3>
+            </div>
+            <div class="box">
+                <img src="proimg.jpg" alt="adv.img">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus, quis sint nihil odio minus fuga eum, nemo asperiores quasi accusamus aliquid
+                         facere accusantium quas voluptates odit
+                          id similique veniam doloremque.</p>
+                </div>
+                <button class="btn">Learn more</button>
+            </div>
+        <div class="media">
+            <div class="search">
+                <img src="./dp4.png" alt="">
+                <input type="search" placeholder="Start a post">
+            </div>
+            <div class="posts">
+            <div class="post">
+                <i class="fa-solid fa-images"></i>
+                <h5>Photos</h5>
+            </div>
+            <div class="post">
+                <i class="fa-solid fa-video"></i>
+                <h5>Video</h5>
+            </div>
+            <div class="post">
+                <i class="fa-solid fa-suitcase"></i>
+                <h5>Jobs</h5>
+            </div>
+            <div class="post">
+                <i class="fa-sharp fa-solid fa-pen"></i>
+                <h5>Write Article</h5>
+            </div>
+        </div>
+        </div>
+
+        </div>
+       </main>
+       <!--=========================MAIN SECTION END HERE=====================------>
+
+       <div class="right_side">
+        <div class="news">
+            <h4>LinkedIn News</h4>
+            <i class="fa-solid fa-circle-info"></i>
+        </div>
+        <div class="latest">
+            <div class="one">
+                <i class="fa-solid fa-circle"></i>
+                <h5>Preparing for virtual interview.....</h5>
+            </div>
+            <div class="two">
+                <small>1d ago</small>
+            </div>
+        </div>
+        <div class="latest">
+            <div class="one">
+                <i class="fa-solid fa-circle"></i>
+                <h5>Biden visit US troops in Polend....</h5>
+            </div>
+            <div class="two">
+                <small>13hr ago</small>
+            </div>
+            
+        </div>
+        <div class="latest">
+            <div class="one">
+                <i class="fa-solid fa-circle"></i>
+                <h5>Elon musk launching new model....</h5>
+            </div>
+            <div class="two">
+                <small>18hr ago</small>
+            </div>
+            
+        </div>
+        <div class="latest">
+            <div class="one">
+                <i class="fa-solid fa-circle"></i>
+                <h5>Climate changes rappidly incre....</h5>
+            </div>
+            <div class="two">
+                <small>22hr ago</small>
+            </div>
+            
+        </div>
+        <div class="latest">
+            <div class="one">
+                <i class="fa-solid fa-circle"></i>
+                <h5>Indian economy Growth expo...</h5>
+            </div>
+            <div class="two">
+                <small>2d ago</small>
+            </div>
+            
+        </div>
+        <div class="show_more">
+            <h5>Show more</h5>
+            <i class="fa-solid fa-angle-down"></i>
+        </div>
+
+
+       </div>
+
+       <!--=========================RIGHTSIDE BAR END HERE=====================------>
+       
+      
+
+    </div>  
+        
+    </body>
+    </html>
